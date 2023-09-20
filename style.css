@@ -474,7 +474,9 @@ header {
 }
 
 .next-container {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   font-weight: var(--bold-weight);
   height: auto;
@@ -483,16 +485,18 @@ header {
   transition: all .3s ease;
 }
 
-.sub-section a:hover > .next-container {
-  opacity: 1;
-  transform: translateX(0);
-} 
-
 .next-container i {
   position: absolute;
-  top:6px;
-  font-weight: var(--bold-weight);
+  /* top: 18px;
+  font-weight: var(--bold-weight); */
 }
+
+.sub-section a:hover > .next-container {
+  opacity: 1;
+  transform: translateX(10px);
+} 
+
+
 
 .sub-section-intro h1 {
   margin: 3rem 0;

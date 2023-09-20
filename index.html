@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="shortcut icon" href="./assets/cropped-favicon-classy-192x192.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <title>Imitate: Classy | Comprehensive Online Fundraising Suite</title>
+</head>
+
+<body>
+<header>
+  <div class="blue">
+    <p>Unlock Generosity This Year-End Season – <a href="#">Attend Our Webinar Series</a></p>
+  </div>
+  <nav class="nav-desktop">
+    <div class="container container-sticky">
+      <div class="logo">
+        <a href="#">
+                <img src="./assets/classy-logo.svg"
+          alt="Classy-logo"
+          class="classy-logo">
+        </a>
+      </div>
+      <div class="nav-menus">
+        <div class="nav-left">
+          <ul>
+            <li>
+              <a href="#" onclick="ProductSubMenu()" id='product'>Product<span id="dropdown-menu" class="dropdown"></span></a>
+              <div id="submenu-product" class="mega-menu product"> 
+                <div class="submenu-section">
+                  <div class="submenu-links-wrap menu">
+                    <ul>
+                      <li><a href="#"><span>Product Overview</span></a></li>
+                      <li><a href="#"><span>Our Customers</span></a></li>
+                      <li><a href="#"><span>Advance Security</span></a></li>
+                      <li><a href="#"><span>Pricing</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="submenu-section">
+                  <div class="submenu-title">
+                    Create
+                  </div>
+                  <div class="submenu-links-wrap">
+                    <ul>
+                      <li><a href="#"><img src="./assets/product-icon.svg" alt="Donation"><span>Donation Websites</span></a></li>
+                      <li><a href="#"><img src="./assets/product-icon-1.svg" alt="Donation"><span>Peer-to-Peer</span></a></li>
+                      <li><a href="#"><img src="./assets/product-icon-2.svg" alt="Donation"><span>Recurring Giving</span></a></li>
+                      <li><a href="#"><img src="./assets/product-icon-3.svg" alt="Donation"><span>International Fundraising</span></a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="#"><img src="./assets/product-icon-4.svg" alt="Donation"><span>Crowdfunding</span></a></li>
+                      <li><a href="#"><img src="./assets/product-icon-5.svg" alt="Donation"><span>Fundraising Events+Ticketing</span></a></li>
+                      <li><a href="#"><img src="./assets/product-icon-6.svg" alt="Donation"><span>Virtual Events</span></a></li>
+                      <li><a href="#"><img src="./assets/product-icon-7.svg" alt="Donation"><span>Auction+Mobile Bidding</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="submenu-section">
+                  <div class="submenu-title">
+                    Manage
+                  </div>
+                  <div class="submenu-links-wrap">
+                    <ul>
+                      <li><a href="#"><img src="./assets/product-icon-8.svg" alt="Donation"><span></span>Donation Management</a></li>
+                      <li><a href="#"><img src="./assets/product-icon-9.svg" alt="Donation"><span></span>Payment Processing</a></li>
+                      <li><a href="#"><img src="./assets/icon-product-bidding.png" alt="Donation"><span></span>Virtual+Hybrid Event Management</a></li>
+                      <li><a href="#"><img src="./assets/icon-product-live.png" alt="Donation"><span></span>Integrations</a></li>
+                  </div>
+                </div>
+              </div> <!--mega menu product-->
+            </li>
+            <li>
+              <a href="#" onclick="ResourcesSubMenu()" id="resources">Resources<span class="dropdown"></span></a>
+              <div id="submenu-resources"  class="mega-menu resources"> 
+                <div class="submenu-section">
+                  <div class="submenu-title">
+                    Learn
+                  </div>
+                  <div class="submenu-links-wrap">
+                    <div class="submenu-links-wrap menu">
+                      <ul>
+                        <li><a href="#"><span>Nonprofit Resource Center</span></a></li>
+                        <li><a href="#"><span>Blog</span></a></li>
+                        <li><a href="#"><span>Webinars</span></a></li>
+                        <li><a href="#"><span>Guides</span></a></li>
+                        <li><a href="#"><span>Classy Academy</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="submenu-section">
+                  <div class="submenu-title">
+                    Connect
+                  </div>
+                  <div class="submenu-links-wrap">
+                    <div class="submenu-links-wrap menu">
+                      <ul>
+                        <li><a href="#"><span>Events</span></a></li>
+                        <li><a href="#"><span>Nonprofit Facebook Community</span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> <!--mega menu resources-->
+            </li>
+            <li>
+              <a href="#" onclick="AboutSubMenu()" id='about'>About Us<span class="dropdown"></span></a>
+              <div id="submenu-about" class="mega-menu about"> 
+                <div class="submenu-section">
+                  <div class="submenu-links-wrap menu">
+                    <ul>
+                      <li><a href="#"><span>Our Story</span></a></li>
+                      <li><a href="#"><span>Our Team</span></a></li>
+                      <li><a href="#"><span>Our Impact</span></a></li>
+                      <li><a href="#"><span>Our Careers</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div> <!--mega menu about-->
+            </li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <a href="#"><span class="icon-box"><i class="fa-solid fa-question"></i></span></a>
+          <a class="btn" href="#">Sign In</a>
+          <a class="cta" href="#">Request a Demo</a>
+        </div>
+      </div> 
+    </div>
+  </nav>
+</header>
+
+<section id="hero">
+  <div class="hero-container container">
+    <h1 class="hero-main-h">2x Your Revenue, 100x Your Impact</h1>
+    <p class="hero-p">With over $6 billion raised, discover why nonprofits with some of the world’s greatest causes choose Classy to advance their missions.</p>
+    <a class="cta btn-hilight hero-cta" href="#">Request a Demo</a>
+
+    <figure class="hero-video-container">
+      <video autoplay muted loop src="./assets/hero-homepage.mp4" class="hero-video"></video>
+    </figure>
+  </div>
+</section>
+
+<section id="client">
+  <div class="container client-container">
+    <div class="client-logo-row">
+      <div class="client-logo-item">
+        <img src="./assets/home-client-wck-opt.png" alt="client-logo">
+      </div>
+      <div class="client-logo-item">
+        <img src="./assets/home-client-hopeforhaiti-opt.png" alt="client-logo">
+      </div>
+      <div class="client-logo-item">
+        <img src="./assets/home-client-livestrong-opt.png" alt="client-logo">
+      </div>
+    </div>
+    <div class="client-logo-row">
+      <div class="client-logo-item">
+        <img src="./assets/home-client-shriners-opt.png" alt="client-logo">
+      </div>
+      <div class="client-logo-item">
+        <img src="./assets/home-client-lls-opt.png" alt="client-logo">
+      </div>
+      <div class="client-logo-item">
+        <img src="./assets/home-client-feedingsandiego-opt.png" alt="client-logo">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sub-section" class="sub-section-01">
+  <div class="sub-section container">
+    <div class="sub-section-intro">
+      <h2>Raise More</h2>
+      <h1>Unify Your Giving Experiences With a Comprehensive Fundraising Suite</h1>
+    </div>
+
+    <div class="row">
+      <div class="item">
+        <hr>
+        <h3>Direct Giving</h3>
+        <p>Collect one-time and recurring gifts through a custom donation form or crowdfunding campaign to drive conversions and maximize retention.</p>
+        <a href="#">Learn More<span class="next-container"><i class='bx bx-right-arrow-alt'></i></span></a>
+      </div>
+      <div class="item">
+        <hr>
+        <h3>Fundraising Events</h3>
+        <p>Power your in-person, virtual, and hybrid event experiences with a robust event platform to drive more revenue for your mission.</p>
+        <a href="#">Learn More<span class="next-container"><i class='bx bx-right-arrow-alt'></i></span></a>
+      </div>
+      <div class="item">
+        <hr>
+        <h3>Peer-to-Peer Campaigns</h3>
+        <p>Scale your donor base and empower supporters to amplify your impact with branded peer-to-peer fundraising campaigns.</p>
+        <a href="#">Learn More<span class="next-container"><i class='bx bx-right-arrow-alt'></i></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sub-section" class="sub-section-02">
+  <div class="sub-section container">
+    <div class="sub-section-intro">
+      <h2>Your Story Is Your Superpower</h2>
+      <h1>Your Story Is Unique, Your Donation Experiences Should Be Too</h1>
+      <p>Effective online fundraising begins with world-class conversion, but it doesn’t end there. Strike the perfect balance of personalization and performance with Classy’s comprehensive tools.</p>
+    </div>
+    <div class="slider-container">
+      <div class="stories">
+      </div>
+    </div>
+    
+  </div>
+
+</section>
+
+<section id="sub-section" class="sub-section-03">
+  <div class="sub-section container">
+    <div class="sub-section-intro">
+      <h2>Why Classy?</h2>
+      <h1>Your Trusted Fundraising Partner</h1>
+      <p>Classy was founded by fundraisers for fundraisers, meaning we understand what nonprofits need to drive lasting change. Our intentional technology, hands-on partnership, and collaborative coaching are a reflection of that and of our mission to mobilize and empower the world for good.</p>
+    </div>
+
+    <div class="row">
+      <div class="item">
+        <img class="item-icon"
+          src="./assets/home-icon-storytelling.png"
+          alt="storytelling icon"
+        >
+        <h3>Storytelling</h3>
+        <p>Create the stand-out story your mission deserves.</p>
+      </div>
+
+      <div class="item">
+        <img class="item-icon"
+        src="./assets/home-icon-experience.png"
+        alt="storytelling icon"
+         >
+        <h3>Experience</h3>
+        <p>Offer a compelling experience donors won’t forget.</p>
+      </div>
+
+      <div class="item">
+        <img class="item-icon"
+        src="./assets/home-icon-connection.png"
+        alt="storytelling icon"
+        >
+        <h3>Connection</h3>
+        <p>Create genuine connection to unlock generosity.</p>
+      </div>
+    </div>  
+  </div>
+</section>
+
+<section id="sub-section" class="sub-section-04">
+  <div class="sub-section container">
+    <div>
+      <img
+        src="./assets/logo-classy-gfm.png"
+        alt="Classy Logo"
+        >
+      <h1>$25 Billion Raised for Good</h1>
+      <p>Together, Classy and GoFundMe are a global giving platform that supports the largest giving community in the world.</p>
+    </div>
+    
+  </div>
+</section>
+
+<section id="sub-section" class="sub-section-05">
+  <div class="sub-section container">
+    <div class="sub-section-intro">
+      <h2>Here to Help</h2>
+      <h1>Create It Your Way With Nonprofit Experts By Your Side</h1>
+      <p>Tap on Classy’s dedicated team of customer coaches, always-available care agents, and expansive resource center to scale your fundraising with confidence.</p>
+    </div>
+
+    <div class="row">
+      <div class="item">
+        <h3>43%</h3>
+        <p>average conversion rate</p>
+        <a href="#">Atlas Free<span class="next-container"><i class='bx bx-right-arrow-alt'></i></span></a>
+      </div>
+      <div class="item">
+        <h3>3x</h3>
+        <p>Giving Tuesday goals</p>
+        <a href="#">Oklahoma Christian University<span class="next-container"><i class='bx bx-right-arrow-alt'></i></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sub-section" class="sub-section-06">
+  <div class="sub-section container">
+    <h2>Raise More</h2>
+    <h1>Donations Doubled, <br>
+      <span class="bolded">Impact Unlocked</span></h1>
+    <p>See why top nonprofits power their fundraising with Classy.</p>
+    <a class="cta-2" href="">Request a Demo</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-container">
+    <div class="row first">
+      <div class="logo">
+        <a href="#">
+                <img src="./assets/classy-logo.svg"
+          alt="Classy-logo"
+          class="classy-logo">
+        </a>
+      </div>
+      <p>Proudly made in San Diego, CA.</p>
+      <div class="social-icons">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="row second">
+      <div class="col f-menu-container">
+        <div class="col f-menu">
+          <div class="f-menu-title">
+            <h4>Getting Started</h4>
+          </div>
+          <div class="f-menu-links">
+            <ul>
+              <li><a href="#">Request a Demo</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Contact Support</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="col f-menu">
+          <div class="f-menu-title">
+            <h4>Community</h4>
+          </div>
+          <div class="f-menu-links">
+            <ul>
+              <li><a href="#">Collaborative</a></li>
+              <li><a href="#">Classy Awards</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="col f-menu">
+          <div class="f-menu-title">
+            <h4>Company</h4>
+          </div>
+          <div class="f-menu-links">
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Press & Media</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community Guidelines</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!--second-->
+  </div> <!--container-->
+
+  <div class="container copyright-container">
+    <div class="copyright-section">
+        
+      <div>
+        <div class="additional-links">
+          <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Statement</a></li>
+            <li><a href="#">DMCA Policy</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <p>&#169; Classy 2023 All rights reserved.</p>
+        </div>
+      </div>
+
+      <div>
+        <img
+        src="./assets/B-Certified.svg" alt="Certified Coporation B logo">
+      </div>
+
+    </div> <!-- copyright-section -->
+  </div>
+
+
+
+
+</footer>
+  
+<script src="script.js"></script>
+</body>
+</html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
